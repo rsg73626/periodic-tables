@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Concurso</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            html {
+                width: 100%;
+            }
+            body {
+                width: 80%;
+                margin: auto;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+            }
+            header, main, footer {
+                background-color: seagreen;
+                color: white;
+            }
+            p, a, strong {
+                font-size: 18px;
+            }
+            h1, h2 {
+                color: black;
+            }
+            header {
+                height: 200px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+            main {
+                height: 1100px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            footer {
+                height: 100px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            footer strong {
+                background-color: lightyellow;
+                color: brown;
+                padding: 10px;
+                border-radius: 10px;
+                border: 2px solid brown;
+            }
+            #form {
+                background-color: gold;
+                font-weight: bold;
+                height: 44px;
+                line-height: 44px;
+            }
+            #img-ref {
+                width: 500px;
+                height: 450px;
+            }
+            #tables {
+                list-style: none;
+            }
+            #tables li {
+                width: 150px;
+                height: 44px;
+                margin: 10px;
+                border: 3px solid white;
+                border-radius: 22px;
+                line-height: 44px;
+            }
+            #tables a {
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+            }
+            #tables a, #tables a:active, #tables a:visited {
+                color: white;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            #tables a:visited {
+                color: purple;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Concurso de Tabelas Periódicas</h1>
+            <p>Visite as páginas abaixo e escolha as três melhores implementações na sua opinião.</p>
+            <p>As respostas devem ser enviadas no formulário abaixo.</p>
+            <p id="form"><a href="https://forms.gle/8yFrzYoF3uArMWwz6" target="_blank">Formulário do concurso de tabelas periódicas.</a></p>
+        </header>
+        <main>
+            <h2>Tabelas</h2>
+            <ul id="tables">
+                <li><a href="./tabela1/index.html" target="_blank">Tabela 1</a></li>
+                <li><a href="./tabela2/index.html" target="_blank">Tabela 2</a></li>
+                <li><a href="./tabela3/index.html" target="_blank">Tabela 3</a></li>
+                <li><a href="./tabela4/index.html" target="_blank">Tabela 4</a></li>
+                <li><a href="./tabela5/index.html" target="_blank">Tabela 5</a></li>
+                <li><a href="./tabela6/index.html" target="_blank">Tabela 6</a></li>
+                <li><a href="./tabela7/index.html" target="_blank">Tabela 7</a></li>
+            </ul>
+            <h2>Tabela de referência</h2>
+            <img id="img-ref" src="https://eadcursoslivres.mackenzie.br/pluginfile.php/304819/mod_assign/intro/Tabela%20Perio%CC%81dica.png" alt="Tabela periódica dos elementos." title="Tabela periódica dos elementos.">
+        </main>
+        <footer>
+            <strong>
+                Não vote na sua própria tabela caso ela esteja participando. Esses votos serão desconsiderados.
+            </strong>
+        </footer>
+    </body>
+</html>
